@@ -1,3 +1,8 @@
+.plus-family {
+    font-family: "Plus Jakarta", sans-serif;
+}
+
+
 .menu-lines {
     width: 30px;
     height: 5px;
@@ -26,6 +31,88 @@
 .gap-24 {
     gap: 24px;
 }
+
+.max-w-1140 {
+    max-width: 1140px !important;
+}
+
+.nav-btn {
+    border-radius: 61px;
+    padding: 16px 42px 16px 42px;
+    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    transition: all 200ms linear;
+}
+
+.nav-btn:hover {
+    background: linear-gradient(130.88deg, #4F91FC -9.14%, #A854E9 283.16%) !important;
+    color: white !important;
+}
+
+.text-hover:hover {
+    color: var(--color-black) !important;
+    opacity: 100% !important;
+}
+
+/* -------------line-height----------------------- */
+.lh-21 {
+    line-height: 21.7px;
+}
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-26 {
+    line-height: 26px;
+}
+
+.lh-30 {
+    line-height: 30.6px;
+}
+
+.lh-52 {
+    line-height: 52.8px;
+}
+
+.lh-66 {
+    line-height: 66.4px;
+}
+
+.lh-70 {
+    line-height: 70.4px;
+}
+
+/* -------------line-height----------------------- */
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+/* ---------------section-1-------------------- */
+.mx-w-948 {
+    max-width: 948px;
+}
+
+.header-span-txt-color {
+    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mx-w-829 {
+    max-width: 829px;
+}
+
+.image-card {
+    max-width: 1139px;
+    border-radius: 16px;
+    border-width: 5px;
+
+}
+
 
 @media (max-width:991.98px) {
 
