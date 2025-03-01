@@ -40,6 +40,7 @@
     padding: 16px 42px 16px 42px;
     background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
     transition: all 200ms linear;
+    
 }
 
 .nav-btn:hover {
@@ -90,7 +91,7 @@
     right: 0;
 }
 
-/* ---------------section-1-------------------- */
+/* ---------------section-1--------------- */
 .mx-w-948 {
     max-width: 948px;
 }
@@ -121,8 +122,8 @@
 }
 
 .header-img-bottom-circle {
-    bottom: 0;
-    right: -35px;
+    bottom: 60px;
+    right: -40px;
 }
 
 .circle {
@@ -186,6 +187,45 @@
     mask-composite: exclude;
 }
 
+/* ---------------section-2--------------- */
+.sec-2-imgs {
+    max-width: 276px !important;
+    height: 276px;
+    border-radius: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.sec-2-circle {
+    max-width: 200px;
+    width: 100%;
+    height: 200px;
+    top: 167px;
+    left: 167px;
+    position: absolute;
+    filter: blur(224px);
+    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+}
+
+.sec-2-logo {
+    top: 39%;
+    right: 38%;
+}
+
+.mx-w-536 {
+    max-width: 536px;
+}
+
 @media (max-width:991.98px) {
 
     .nav-link {
@@ -207,5 +247,10 @@
     .show-navbar {
         right: 0 !important;
     }
+
+    .sec-2-logo {
+        display: none;
+    }
+
 
 }
